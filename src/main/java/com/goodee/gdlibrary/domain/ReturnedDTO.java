@@ -1,7 +1,5 @@
 package com.goodee.gdlibrary.domain;
 
-import java.sql.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,6 +12,6 @@ public class ReturnedDTO {
 	   private Long returnedNo;
 	   private Long bookNo; 
 	   private String memberId;
-	   private Date returnedDate;
+	   private java.util.Date returnedDate;
 
 }

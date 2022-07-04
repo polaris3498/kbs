@@ -22,9 +22,9 @@ public class MemberDTO {
 	private String memberRoadAddress;
 	private String memberDetailAddress;
 	private Integer memberAgreeState;
-	private Date memberSignUp;
-	private Date memberPwModified;
-	private Date memberInfoModified;
+	private java.util.Date memberSignUp;
+	private java.util.Date memberPwModified;
+	private java.util.Date memberInfoModified;
 	private String memberSessionId;
 	private Date memberSessionLimit;
 

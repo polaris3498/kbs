@@ -1,7 +1,5 @@
 package com.goodee.gdlibrary.domain;
 
-import java.sql.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -24,10 +22,10 @@ public class DormantMemberDTO {
 	private String memberRoadAddress;
 	private String memberDetailAddress;
 	private Integer memberAgreeState;
-	private Date memberSignUp;
-	private Date dormantDate;
-	private Date memberPwModified;
-	private Date memberInfoModified;
+	private java.util.Date memberSignUp;
+	private java.util.Date dormantDate;
+	private java.util.Date memberPwModified;
+	private java.util.Date memberInfoModified;
 
 
 

@@ -1,7 +1,5 @@
 package com.goodee.gdlibrary.domain;
 
-import java.sql.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -19,8 +17,8 @@ public class NoticeDTO {
 	   private Long noticeNo;
 	   private String noticeTitle;
 	   private String noticeContent;
-	   private Date noticeCreated;
-	   private Date noticeModified;
+	   private java.util.Date noticeCreated;
+	   private java.util.Date noticeModified;
 	   private String noticeIp;
 	   private Integer noticeHit;
 

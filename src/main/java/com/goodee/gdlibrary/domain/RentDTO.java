@@ -1,7 +1,5 @@
 package com.goodee.gdlibrary.domain;
 
-import java.sql.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,7 +12,7 @@ public class RentDTO {
 	   private Long rentNo;
 	   private Long bookNo;
 	   private String memberId;
-	   private Date rentDate;
-	   private Date rentExpirationDate;
+	   private java.util.Date rentDate;
+	   private java.util.Date rentExpirationDate;
 
 }

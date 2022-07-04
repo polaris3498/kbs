@@ -1,7 +1,5 @@
 package com.goodee.gdlibrary.domain;
 
-import java.sql.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,7 +13,7 @@ public class MemberLogDTO {
 
 	private Long memberLogNo;
 	private String memberId;
-	private Date memberLogSignIn;
+	private java.util.Date memberLogSignIn;
 
 
 
